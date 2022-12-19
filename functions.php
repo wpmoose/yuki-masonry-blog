@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! defined( 'YUKI_MASONRY_BLOG_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'YUKI_MASONRY_BLOG_VERSION', '1.0.0' );
+	define( 'YUKI_MASONRY_BLOG_VERSION', '1.0.1' );
 }
 
 if ( ! defined( 'YUKI_MASONRY_BLOG_PATH' ) ) {
@@ -68,7 +68,7 @@ if ( ! function_exists( 'yuki_masonry_blog_starter_content' ) ) {
 			'posts'     => array(
 				'home' => array(
 					'post_type'    => 'page',
-					'post_title'   => __( 'Home', 'yuki' ),
+					'post_title'   => __( 'Home', 'yuki-masonry-blog' ),
 					'post_content' => '',
 				),
 				'about',
@@ -77,7 +77,7 @@ if ( ! function_exists( 'yuki_masonry_blog_starter_content' ) ) {
 			),
 			'nav_menus' => array(
 				'yuki_header_el_menu_1' => array(
-					'name'  => __( 'Top Bar Menu', 'yuki' ),
+					'name'  => __( 'Top Bar Menu', 'yuki-masonry-blog' ),
 					'items' => array(
 						'page_about',
 						'page_contact',
@@ -86,7 +86,7 @@ if ( ! function_exists( 'yuki_masonry_blog_starter_content' ) ) {
 					),
 				),
 				'yuki_header_el_menu_2' => array(
-					'name'  => __( 'Primary Menu', 'yuki' ),
+					'name'  => __( 'Primary Menu', 'yuki-masonry-blog' ),
 					'items' => array(
 						'link_home',
 						'page_about',
@@ -95,7 +95,7 @@ if ( ! function_exists( 'yuki_masonry_blog_starter_content' ) ) {
 					),
 				),
 				'yuki_footer_el_menu'   => array(
-					'name'  => __( 'Footer Menu', 'yuki' ),
+					'name'  => __( 'Footer Menu', 'yuki-masonry-blog' ),
 					'items' => array(
 						'link_home',
 						'page_about',
@@ -615,7 +615,7 @@ if ( ! function_exists( 'yuki_masonry_blog_homepage_design' ) ) {
 				'columns'  => [
 					[
 						'elements' => [
-							yuki_masonry_blog_homepage_heading( __( 'Most Recent', 'yuki_masonry_blog' ) ),
+							yuki_masonry_blog_homepage_heading( __( 'Most Recent', 'yuki-masonry-blog' ) ),
 							[
 								'id'       => 'posts-grid',
 								'settings' => [
@@ -677,7 +677,7 @@ if ( ! function_exists( 'yuki_masonry_blog_homepage_design' ) ) {
 				'columns'  => [
 					[
 						'elements' => [
-							yuki_masonry_blog_homepage_heading( __( 'Recommended', 'yuki_masonry_blog' ), __( 'Top pic for you', 'yuki_masonry_blog' ), [
+							yuki_masonry_blog_homepage_heading( __( 'Recommended', 'yuki-masonry-blog' ), __( 'Top pic for you', 'yuki-masonry-blog' ), [
 								'spacing' => [
 									'top'    => '0px',
 									'right'  => '0px',
