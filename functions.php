@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! defined( 'YUKI_MASONRY_BLOG_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'YUKI_MASONRY_BLOG_VERSION', '1.0.1' );
+	define( 'YUKI_MASONRY_BLOG_VERSION', '1.0.2' );
 }
 
 if ( ! defined( 'YUKI_MASONRY_BLOG_PATH' ) ) {
